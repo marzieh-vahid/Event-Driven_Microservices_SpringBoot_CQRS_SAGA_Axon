@@ -22,8 +22,7 @@ public class UserEventsHandler {
         PaymentDetails paymentDetails = new PaymentDetails("123Card","123"
         ,12,2030,"Marzieh Vahid");
 
-        User user = new User("Marzieh","Vahid",query.getUserId(),paymentDetails);
-        return user;
+        return new User("Marzieh","Vahid",query.getUserId(),paymentDetails);
     }
     
     
